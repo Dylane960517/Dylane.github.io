@@ -1,0 +1,21 @@
+
+/* 顶部通栏开始 */
+.top{
+	height: 35px;
+	background-color: #f7f7f7;
+}
+
+
+.top .info{
+	line-height: 35px;
+	float: right;
+}
+
+.top .info a{
+	margin: 0 5px;
+	color: #8e8e8e;
+}
+.top .info a:hover{
+	color: red;
+}
+/* 顶部通栏结束 */

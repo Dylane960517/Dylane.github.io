@@ -1,0 +1,383 @@
+.main{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+/* 头部开始 */
+
+.header{
+	height: 80px;
+	position: relative;
+	overflow: hidden;
+}
+.header .logo{
+	background:url(../img/logo.png) no-repeat;
+	height: 80px;
+	width: 220px;
+	float: left;
+} 
+
+.search input{
+	height: 46px;
+	line-height: 46px;
+	width: 450px;
+	font-size: 15px;
+	padding-right: 33px;
+	border:2px solid #d3d3d3;
+	background: url(../img/search.png) no-repeat right;
+	margin-top: 17px;
+	margin-left: 48px;
+}
+.search{
+	float: left;
+	
+	position: relative;
+}
+
+
+.search span{
+	position: absolute;
+	right:0;
+	bottom:0;
+	width: 33px;
+	height: 50px;
+	cursor: pointer;	
+}
+
+/* 头部结束 */
+
+
+
+
+.content .nav{
+	height: 50px;
+	background-color: #2B3C8E;
+	line-height: 50px;
+}
+
+.content .nav li{
+	width: 200px;
+	float: left;
+	position: relative;
+	cursor: pointer;
+}
+
+.content .nav ul li a{
+	float: left;
+	margin: 0 47px;
+	color: #E0FFE1;
+}
+
+.content .nav ul li a{
+	font-size: 20px;
+
+}
+
+.content .nav ul li a:hover{
+	color:#C81623;
+}
+
+
+.content .nav ul li ul{
+	display: none;
+	 position: absolute;
+      top: 50px;
+      z-index: 100;
+
+      
+
+      /* opacity兼容性处理，兼容到IE8 */
+
+       filter:alpha(opacity=90);
+      -moz-opacity:0.9;
+      -khtml-opacity: 0.9;
+      opacity: 0.9;
+ 
+}
+
+
+
+
+
+
+
+
+.content .nav ul li ul li{
+	background-color: #E4976D;
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+
+	border-bottom:1px dotted  #d3d3d3;
+}
+.content .nav ul li ul li a{
+	font-size: 14px;
+	
+}
+.content .nav ul li ul li a:hover{
+
+	color: #9B0505;
+}
+
+/* 景点排行 */
+.ranking{
+	width: 310px;
+	height: 318px;
+	margin: 0 20px;
+	float: left;
+	text-align: center;
+
+}
+.ranking h1{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid black;
+	font-family: "楷体";
+}
+
+.ranking p{
+	height: 52px;
+	line-height: 52px;
+	font-size: 40px;
+	border-bottom: 1px dashed black;
+	overflow: hidden;
+	position: relative;
+	z-index: 20;
+
+}
+.ranking p span{
+	
+	height: 52px;
+	width: 310px;
+	display: block;
+	position: absolute;
+	z-index: -10;
+	
+
+}
+
+
+.LJ{
+	background: url(../img/XS.png) no-repeat;
+
+}
+.DL{
+	background: url(../img/DL.png) no-repeat;
+}
+.XS{
+	background: url(../img/LJ.png) no-repeat;
+}
+.ranking p a{
+	color:#404040;
+	font-family: "楷体";
+	font-weight: bolder;
+}
+
+
+.ranking p a:hover{
+	color: red;
+}
+.focus{
+	width: 630px;
+	height: 320px;
+	
+	
+}
+
+.content .banner{
+	height: 120px;
+
+}
+
+.bg{
+	height: 468px;
+	  background: url(../img/bg.png) no-repeat;
+
+	
+
+}
+
+
+
+.banner h1{
+	line-height: 130px;
+	text-align: center;
+	font-family: "宋体";
+}
+.banner span{
+	color: red;
+	font-size: 35px;
+	font-weight: bolder;
+}
+
+
+.content-buttom{
+	
+	height:326px;
+	margin-top: 10px;
+	
+	
+
+}
+
+.content-buttom .text{
+	width: 300px;
+	float: left;
+	border: 1px dotted #9B0505;
+	font-size: "微软雅黑";
+	font-size: 20px;
+	padding: 20px;
+	border-radius: 10px;
+	position: relative;
+	
+}
+
+.content-buttom .text h1{
+	color: #9B0505;
+	float: left;
+}
+.content-buttom .text a{
+	position: absolute;
+	right: 0;
+	color: black;
+
+}
+.content-buttom .text a:hover{
+	color: red;
+
+}
+.place{
+	width: 650px;
+	float: right;
+	
+
+}
+
+
+.content-buttom .text p{
+	text-indent: 2em;
+}
+
+.content-buttom .pla{
+	
+	height: 286px;
+	width: 650px;
+
+	
+}
+.content-buttom .place h1{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 30px;
+	font-family: "楷体";
+}
+
+
+.content-buttom  h1{
+	
+	width: 100%;
+	height: 50px;
+
+}
+
+.pla .pic{
+	width: 200px;
+	height: 286px;
+	margin-left: 14px;
+	border:1px dotted black;
+	float: right;
+
+	cursor: pointer;
+
+	position: relative;
+	
+			overflow: hidden;
+              
+             
+}
+
+/* scale兼容性处理 */
+.pla .pic img:hover {
+            transform: scale(1.2);
+            transition: all 1s;
+
+            
+             -webkit-transform: scale(1.2); /*Safari 和 Chrome*/
+             -moz-transform: scale(1.2); /*Firefox*/
+              -ms-transform: scale(1.2); /*IE9 */
+             -o-transform: scale(1.2); /*Opera*/
+
+         }
+
+.pla .pic p{
+	position: absolute;
+	top:10px;
+	left: 10px;
+	font-size: 40px;
+	text-align: center;
+	display: none;
+	color: #9B0505;
+
+}
+
+.footer{
+	height: 210px;
+	/* background-color: black; */
+	margin-top: 30px;
+	text-align: center;
+}
+
+.footer .code{
+	background: url(../img/code.jpg) no-repeat;
+	width: 100px;
+	height: 100px;
+	margin: 40px auto 0;
+}
+
+.footer .txt p{
+	margin-top: 10px;
+	font-size: 14px;
+		color: #8E8E8E;
+}
+.footer .txt .site{
+	height: 30px;
+		
+}
+
+.footer .txt .site a{
+	font-size: 14px;
+	margin: 0 10px;
+	display: inline-block;
+	line-height: 30px;
+	color: #8E8E8E;
+}
+
+.footer .txt .site p{
+	font-size: 14px;
+	color: #8E8E8E;
+	margin-top: 10px;
+	
+}
+.footer .txt .site a:hover{
+	color: red;
+}
+
+
+
+.mysite{
+	width: 200px;
+	height: 80px;
+	
+	position: absolute;
+	
+	right:0;
+	bottom: -80px;
+}
+
+.mysite a{
+	line-height: 80px;
+	font-size: 14px;
+	color: red;
+	font-weight: bolder;
+}
